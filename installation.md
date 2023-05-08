@@ -7,3 +7,4 @@ $   yarn --version
 
 $   npm install react-router-dom
 $   npm install react-bootstrap
+$   npm install @observablehq/plot
