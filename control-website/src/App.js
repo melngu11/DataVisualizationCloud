@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import Homicide from './components/pages/Homicide';
 import School from './components/pages/School';
-import Provision from './components/pages/Provision';
+// import Provision from './components/pages/Provision';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
           <Route path='/' exact Component={Home}/>
           <Route path='/homicide' exact Component={Homicide}/>
           <Route path='/school' exact Component={School}/>
-          <Route path='/provision' exact Component={Provision}/>
+          {/* <Route path='/provision' exact Component={Provision}/> */}
         </Routes>
     </Router>
     </>

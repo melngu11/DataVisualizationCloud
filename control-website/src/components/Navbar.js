@@ -55,11 +55,11 @@ function Navbar() {
                             Schoot Shootings
                             </Link>
                     </li>
-                    <li className = 'nav-item'>
+                    {/* <li className = 'nav-item'>
                         <Link to = '/provision' className = 'nav-links' onClick={closeMobileMenu}>
                             Gun Provisions
                             </Link>
-                    </li>
+                    </li> */}
                 </ul>
                 {/* {button && <Button buttonStyle='btn--outline'>CONTACT SENATOR</Button>} */}
      
